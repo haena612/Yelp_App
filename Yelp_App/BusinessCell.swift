@@ -18,7 +18,7 @@ class BusinessCell: UITableViewCell {
     @IBOutlet weak var reviewsCountLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
-   
+   // test
     var business: Business {
         didSet{
            thumbImageView.setImage
